@@ -169,3 +169,8 @@ section{
 .button i{
     margin-right: 7px;
 }
+
+header.sticky{
+    background: #7c5101;
+    padding: 10px 19%;
+}
