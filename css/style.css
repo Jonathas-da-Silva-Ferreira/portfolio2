@@ -233,3 +233,115 @@ header.sticky{
     color: var(--main-colo2);
     font-size: 14px;
 }
+
+.work-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.row img{
+    height: auto;
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 1.4rem;
+}
+
+.row{
+    background-color: #7a5400;
+    border-radius: 12px;
+    border: 1px solid transparent;
+    padding: 15px 20px;
+    transition: all .7s;
+}
+
+.main-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.row h5{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.row h4{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.row i{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 50%;
+    background: var(--main-colo2);
+    color: var(--bg-color);
+}
+
+.row:hover{
+    border: 1px solid var(--main-color1);
+    transform: translateY(-3px) scale(1.02);
+    cursor: pointer;
+}
+
+.contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4.3rem;
+}
+
+.contact-form form{
+    position: relative;
+    width: 600px;
+}
+
+form input,
+form textarea{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    background: #aa6000;
+    color: var(---text-color);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+form input::placeholder,
+form textarea::placeholder{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+form textarea{
+    resize: none;
+}
+
+form .send-btn{
+    display: inline-block;
+    padding: 11px 25px;
+    background: var(--main-colo2);
+    color: var(---text-color);
+    border: 2px solid var(--main-color);
+    border-radius: 8px;
+    font-size: 15px;
+    transition: all .6s;
+    width: 30%;
+}
+
+form .send-btn:hover{
+    background: transparent;
+    color: var(--main-color);
+    box-shadow: 0 0 20px var(--main-colo2);
+    cursor: pointer;
+}
