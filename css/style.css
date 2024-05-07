@@ -10,10 +10,10 @@
 }
 
 :root{
-    --bg-color: #523f05;
+    --bg-color: #4b3902;
     --main-color: #b86200;
     ---text-color: white;
-    --main-colo2: #fc801a;
+    --main-colo2: #c56200;
     --main-color1: white;
 
     --h1-font: 5.6rem;
@@ -452,7 +452,7 @@ form .send-btn:hover{
         height: 100vh;
         display: flex;
         flex-direction: column;
-        background: #7b4d03;
+        background: #8a5602da;
         padding: 20px 10px;
         gap: 0.6rem;
         text-align: left;
