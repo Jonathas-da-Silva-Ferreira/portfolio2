@@ -11,9 +11,9 @@
 
 :root{
     --bg-color: #4b3902;
-    --main-color: #b86200;
+    --main-color: #af5e02;
     ---text-color: white;
-    --main-colo2: #c56200;
+    --main-colo2: #a55301;
     --main-color1: white;
 
     --h1-font: 5.6rem;
@@ -311,7 +311,7 @@ form textarea{
     padding: 20px;
     border: none;
     outline: none;
-    background: #aa6000;
+    background: #774300;
     color: var(---text-color);
     margin-bottom: 20px;
     border-radius: 10px;
